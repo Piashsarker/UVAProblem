@@ -1,0 +1,36 @@
+import java.util.Scanner;
+
+/**
+ *
+ * @author PT
+ */
+class RelationalOperator_11172 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+        Scanner input = new Scanner(System.in);
+        int t = input.nextInt();
+        if(t<15){
+             while(t>0) {
+           
+           int a = input.nextInt(), b = input.nextInt();
+                if (a > b) {
+                    System.out.println(">");
+                } 
+                if (a < b) {
+                    System.out.println("<");
+                } 
+                if(a==b){
+                    System.out.println("=");
+                }
+             t--;
+        }
+        }
+       
+
+    }
+
+}
